@@ -2,7 +2,7 @@
 
 ## Research Question
 
-Does the temporal concentration of online engagement before an assessment explain differences in student performance beyond total engagement volume?
+Is the temporal concentration of online engagement before an assessment associated with differences in student performance beyond the total volume of engagement?
 
 ## Unit of Analysis
 
