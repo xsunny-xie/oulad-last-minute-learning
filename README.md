@@ -34,7 +34,7 @@ The main explanatory variables are:
 
 The proposed last-minute engagement measure is:
 
-`learning_ratio = clicks in final 7 days / clicks in final 28 days`
+`cramming_ratio = clicks in final 7 days / clicks in final 28 days`
 
 ## Data
 
