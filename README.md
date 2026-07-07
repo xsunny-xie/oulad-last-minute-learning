@@ -8,7 +8,7 @@ The analysis uses the Open University Learning Analytics Dataset (OULAD), which 
 
 ## Research Question
 
-**Does the temporal concentration of online engagement before an assessment explain differences in student performance beyond total engagement volume?**
+**Is the temporal concentration of online engagement before an assessment associated with differences in student performance beyond the total volume of engagement?**
 
 ## Hypotheses
 
