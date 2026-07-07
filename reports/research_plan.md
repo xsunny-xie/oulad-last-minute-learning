@@ -2,9 +2,7 @@
 
 ## Research Question
 
-Is engagement concentrated in the final week before an assessment associated
-with lower assessment scores, after accounting for students' total level of
-online engagement?
+Does the temporal concentration of online engagement before an assessment explain differences in student performance beyond total engagement volume?
 
 ## Unit of Analysis
 
