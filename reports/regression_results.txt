@@ -1,0 +1,97 @@
+Model 1
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  score   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     23.17
+Date:                Thu, 09 Jul 2026   Prob (F-statistic):           1.62e-06
+Time:                        15:29:20   Log-Likelihood:                -7032.4
+No. Observations:                1658   AIC:                         1.407e+04
+Df Residuals:                    1656   BIC:                         1.408e+04
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept         75.5916      0.779     97.078      0.000      74.065      77.118
+cramming_ratio   -10.1671      2.112     -4.814      0.000     -14.307      -6.027
+==============================================================================
+Omnibus:                      216.887   Durbin-Watson:                   1.845
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              314.457
+Skew:                          -0.958   Prob(JB):                     5.21e-69
+Kurtosis:                       3.939   Cond. No.                         5.02
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Model 2
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  score   R-squared:                       0.119
+Model:                            OLS   Adj. R-squared:                  0.118
+Method:                 Least Squares   F-statistic:                     92.29
+Date:                Thu, 09 Jul 2026   Prob (F-statistic):           1.00e-38
+Time:                        15:29:20   Log-Likelihood:                -6941.9
+No. Observations:                1658   AIC:                         1.389e+04
+Df Residuals:                    1655   BIC:                         1.391e+04
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           66.8257      1.106     60.411      0.000      64.658      68.994
+cramming_ratio      -3.3434      2.157     -1.550      0.121      -7.571       0.884
+total_clicks_28d     0.0141      0.001     12.093      0.000       0.012       0.016
+==============================================================================
+Omnibus:                      193.704   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              271.851
+Skew:                          -0.887   Prob(JB):                     9.30e-60
+Kurtosis:                       3.887   Cond. No.                     3.15e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 3.15e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Model 3
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  score   R-squared:                       0.185
+Model:                            OLS   Adj. R-squared:                  0.178
+Method:                 Least Squares   F-statistic:                     29.17
+Date:                Thu, 09 Jul 2026   Prob (F-statistic):           3.23e-65
+Time:                        15:29:20   Log-Likelihood:                -6877.4
+No. Observations:                1658   AIC:                         1.378e+04
+Df Residuals:                    1644   BIC:                         1.386e+04
+Df Model:                          13                                         
+Covariance Type:                  HC3                                         
+=======================================================================================================================
+                                                          coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------
+Intercept                                              63.2637      1.999     31.655      0.000      59.347      67.181
+C(highest_education)[T.HE Qualification]                0.3649      1.144      0.319      0.750      -1.876       2.606
+C(highest_education)[T.Lower Than A Level]             -3.5412      0.840     -4.214      0.000      -5.188      -1.894
+C(highest_education)[T.No Formal quals]                -4.0203      5.858     -0.686      0.493     -15.502       7.461
+C(highest_education)[T.Post Graduate Qualification]     9.9519      4.459      2.232      0.026       1.213      18.691
+C(gender)[T.M]                                         -2.6397      0.981     -2.692      0.007      -4.562      -0.718
+C(age_band)[T.35-55]                                    2.2969      0.984      2.334      0.020       0.368       4.226
+C(age_band)[T.55<=]                                   -10.1395      7.367     -1.376      0.169     -24.578       4.299
+C(disability)[T.Y]                                     -0.6900      1.476     -0.467      0.640      -3.584       2.204
+cramming_ratio                                          0.3270      2.124      0.154      0.878      -3.837       4.491
+total_clicks_28d                                        0.0043      0.001      3.201      0.001       0.002       0.007
+active_learning_days                                    0.7388      0.091      8.138      0.000       0.561       0.917
+studied_credits                                        -0.0084      0.011     -0.745      0.457      -0.030       0.014
+num_of_prev_attempts                                   -1.5072      1.104     -1.365      0.172      -3.672       0.657
+==============================================================================
+Omnibus:                      177.909   Durbin-Watson:                   1.891
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              253.631
+Skew:                          -0.811   Prob(JB):                     8.41e-56
+Kurtosis:                       4.019   Cond. No.                     9.66e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 9.66e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
