@@ -40,7 +40,13 @@ The proposed last-minute engagement measure is:
 
 This project uses the Open University Learning Analytics Dataset.
 
-The raw dataset is not stored directly in this repository. Instructions for obtaining and preparing the data will be added during the data-processing stage.
+The raw dataset is not stored directly in this repository because it includes large CSV files. To download the dataset locally, run:
+
+```bash
+bash scripts/download_oulad.sh
+```
+
+This will place the OULAD CSV files in `data/raw/`.
 
 ## Planned Methods
 
